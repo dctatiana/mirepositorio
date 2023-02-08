@@ -13,5 +13,20 @@ section {
 
 }
 
+h1 { 
+  color: black;
+  font-size: 20px;
+ 
 
-  
+}
+h2
+{ 
+  color: black;
+  font-size: 50px;
+
+ }
+
+body { 
+ background-color: beige;
+
+ }
