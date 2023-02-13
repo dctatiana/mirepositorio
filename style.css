@@ -23,9 +23,11 @@
   margin:auto;
 }
 .nav {
-  width:800px; /*Le establecemos un ancho*/
+  width:300px; /*Le establecemos un ancho*/
   margin:0 auto; /*Centramos automaticamente*/
   display: flex;
+  justify-content: center;
+ 
 }
 
 .nav li > a {
@@ -40,6 +42,7 @@
  text-align: none;
   padding:10px 12px;
   display:block;
+  text-decoration: none;
   
 }
 
@@ -82,6 +85,7 @@
   position: relative;
 }
 .perfil {
+  background-color: pink;
   width: 100%;
   float: none;
  flood-color: bisque;
@@ -89,8 +93,8 @@
   border: 1px solid beige;
   margin:0 auto;
   display: flex;
-  text-align: center;
   position: relative;
+  justify-self: center;
 }
 .conocimientos {
   width: 100%;
@@ -100,6 +104,7 @@
   margin:auto;
   position: relative;
   display: flex;
+  justify-content: center;
 }
 .experiencia {
   width: 100%;
@@ -116,4 +121,16 @@
   border: 1px solid beige;
   margin:auto;
   position: relative;
+  justify-self: center;
+
+}
+.perfil {
+  width: 100%;
+  float: right;
+  padding: 15px;
+  border: 1px solid beige;
+  margin:auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
