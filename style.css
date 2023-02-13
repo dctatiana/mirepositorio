@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.header {
+  border: 1px solid white;
+  padding: 15px;
+}
+
+.menu {
+  width: 25%;
+  float: left;
+  padding: 15px;
+  border: 1px solid green;
+}
+
+.main {
+  width: 100%;
+  float: right;
+  padding: 15px;
+  border: 1px solid beige;
+  margin:auto;
+}
+.nav {
+  width:800px; /*Le establecemos un ancho*/
+  margin:0 auto; /*Centramos automaticamente*/
+  display: flex;
+}
+
+.nav li > a {
+  float:left;
+  display:flex;
+  text-transform: uppercase;
+}
+
+.nav  a {
+  background-color:lightcoral;
+  color:#fff;
+ text-align: none;
+  padding:10px 12px;
+  display:block;
+  
+}
+
+.nav li a:hover {
+  background-color:#434343;
+}
+
+.nav li ul {
+  display:none;
+  position:absolute;
+  min-width:140px;
+}
+
+.nav li:hover > ul {
+  display:block;
+}
+
+.nav li ul li {
+  position:relative;
+}
+
+.nav li ul li ul {
+  right:-140px;
+  top:0px;
+}
+.cursos {
+  width: 100%;
+  float: right;
+  padding: 15px;
+  border: 1px solid beige;
+  margin:auto;
+  position: relative;
+}
+.formación {
+  width: 100%;
+  float: right;
+  padding: 40px;
+  border: 1px solid beige;
+  margin:auto;
+  position: relative;
+}
+.perfil {
+  width: 100%;
+  float: none;
+ flood-color: bisque;
+  padding: 15px;
+  border: 1px solid beige;
+  margin:0 auto;
+  display: flex;
+  text-align: center;
+  position: relative;
+}
+.conocimientos {
+  width: 100%;
+  float: right;
+  padding: 15px;
+  border: 1px solid beige;
+  margin:auto;
+  position: relative;
+  display: flex;
+}
+.experiencia {
+  width: 100%;
+  float: right;
+  padding: 15px;
+  border: 1px solid beige;
+  margin:auto;
+  position:relative;
+}
+.contacto {
+  width: 100%;
+  float: right;
+  padding: 15px;
+  border: 1px solid beige;
+  margin:auto;
+  position: relative;
+}

@@ -2,9 +2,11 @@ p{ color: black;}
 
 section {
     font-family: 'Itim', cursive;
-    width: 320px;
+    width: 780px;
     padding: 50px;
-    margin: 20px;
+    margin: 0 auto;
+
+    
   }
   #miparrafo { 
     color: black;
@@ -23,6 +25,7 @@ h2
 { 
   color: black;
   font-size: 50px;
+  margin:0 auto;
 
  }
 
@@ -40,4 +43,10 @@ body {
 
  img {
    border-radius: 50%;
+   
  }
+li  {
+ padding:0 ;
+ list-style: none;
+  
+}
