@@ -4,29 +4,19 @@
 
 
 .header {
-  border: 1px solid white;
-  padding: 15px;
+  border: 10px solid white;
+  padding-top: 15px;
+  margin: 0%;
+  position:fixed;
 }
 
-.menu {
-  width: 25%;
-  float: left;
-  padding: 15px;
-  border: 1px solid green;
-}
-
-.main {
-  width: 100%;
-  float: right;
-  padding: 15px;
-  border: 1px solid beige;
-  margin:auto;
-}
 .nav {
   width:300px; /*Le establecemos un ancho*/
   margin:0 auto; /*Centramos automaticamente*/
   display: flex;
   justify-content: center;
+ 
+
  
 }
 
@@ -34,14 +24,16 @@
   float:left;
   display:flex;
   text-transform: uppercase;
+  padding: 10px 12px 10px 12px 10px 12px;
+  padding-top: 10px;
 }
 
 .nav  a {
-  background-color:lightcoral;
-  color:#fff;
+  background-color: none ;
+  color:lightslategray;
  text-align: none;
   padding:10px 12px;
-  display:block;
+  display:ruby-base;
   text-decoration: none;
   
 }
@@ -72,7 +64,7 @@
   width: 100%;
   float: right;
   padding: 15px;
-  border: 1px solid beige;
+  border: 10px solid beige;
   margin:auto;
   position: relative;
 }
@@ -80,17 +72,18 @@
   width: 100%;
   float: right;
   padding: 40px;
-  border: 1px solid beige;
+  border: 10px solid beige;
   margin:auto;
   position: relative;
 }
 .perfil {
-  background-color: pink;
+  background-color: rgb(159, 159, 45);
+  background-clip: border-box;
   width: 100%;
   float: none;
  flood-color: bisque;
   padding: 15px;
-  border: 1px solid beige;
+  border: 10px solid beige;
   margin:0 auto;
   display: flex;
   position: relative;
@@ -99,18 +92,23 @@
 .conocimientos {
   width: 100%;
   float: right;
-  padding: 15px;
-  border: 1px solid beige;
+  padding: 15px 10px 10px 15px ;
+  border: 10px solid beige;
   margin:auto;
   position: relative;
   display: flex;
   justify-content: center;
 }
+.conocimientos li {
+ 
+  padding: 15px 10px 10px 15px ;
+  
+}
 .experiencia {
   width: 100%;
   float: right;
   padding: 15px;
-  border: 1px solid beige;
+  border: 10px solid beige;
   margin:auto;
   position:relative;
 }
@@ -118,7 +116,7 @@
   width: 100%;
   float: right;
   padding: 15px;
-  border: 1px solid beige;
+  border: 10px solid beige;
   margin:auto;
   position: relative;
   justify-self: center;
@@ -128,9 +126,19 @@
   width: 100%;
   float: right;
   padding: 15px;
-  border: 1px solid beige;
+  border: 10px solid beige;
   margin:auto;
   position: relative;
   display: flex;
   justify-content: center;
+}
+.floor {
+  width: 100%;
+  float: right;
+  padding: 15px;
+  border: 10px solid beige;
+  margin:auto;
+  position: relative;
+
+  justify-content: right;
 }
