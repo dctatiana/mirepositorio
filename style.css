@@ -4,10 +4,11 @@
 
 
 .header {
-  border: 10px solid white;
+  border: 10px solid rgb(249, 249, 168);
   padding-top: 15px;
   margin: 0%;
-  position:fixed;
+  position: fixed;
+  
 }
 
 .nav {
@@ -16,8 +17,8 @@
   display: flex;
   justify-content: center;
  
-
  
+
 }
 
 .nav li > a {
@@ -64,7 +65,7 @@
   width: 100%;
   float: right;
   padding: 15px;
-  border: 10px solid beige;
+  border: 1px solid beige;
   margin:auto;
   position: relative;
 }
@@ -72,7 +73,7 @@
   width: 100%;
   float: right;
   padding: 40px;
-  border: 10px solid beige;
+  border: 1px solid beige;
   margin:auto;
   position: relative;
 }
@@ -83,7 +84,7 @@
   float: none;
  flood-color: bisque;
   padding: 15px;
-  border: 10px solid beige;
+  border: 1px solid beige;
   margin:0 auto;
   display: flex;
   position: relative;
@@ -93,7 +94,7 @@
   width: 100%;
   float: right;
   padding: 15px 10px 10px 15px ;
-  border: 10px solid beige;
+  border: 1px solid beige;
   margin:auto;
   position: relative;
   display: flex;
@@ -108,7 +109,7 @@
   width: 100%;
   float: right;
   padding: 15px;
-  border: 10px solid beige;
+  border: 1px solid beige;
   margin:auto;
   position:relative;
 }
@@ -116,7 +117,7 @@
   width: 100%;
   float: right;
   padding: 15px;
-  border: 10px solid beige;
+  border: 1px solid beige;
   margin:auto;
   position: relative;
   justify-self: center;
@@ -126,7 +127,7 @@
   width: 100%;
   float: right;
   padding: 15px;
-  border: 10px solid beige;
+  border: 1px solid beige;
   margin:auto;
   position: relative;
   display: flex;
@@ -136,7 +137,7 @@
   width: 100%;
   float: right;
   padding: 15px;
-  border: 10px solid beige;
+  border: 1px solid beige;
   margin:auto;
   position: relative;
 
