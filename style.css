@@ -66,7 +66,7 @@
   float: right;
   padding: 15px;
   border: 1px solid beige;
-  margin:auto;
+  margin:0px;
   position: relative;
 }
 .formación {
@@ -74,7 +74,7 @@
   float: right;
   padding: 40px;
   border: 1px solid beige;
-  margin:auto;
+  margin:0px;
   position: relative;
 }
 .perfil {
@@ -85,7 +85,7 @@
  flood-color: bisque;
   padding: 15px;
   border: 1px solid beige;
-  margin:0 auto;
+  margin:0px;
   display: flex;
   position: relative;
   justify-self: center;
@@ -95,7 +95,7 @@
   float: right;
   padding: 15px 10px 10px 15px ;
   border: 1px solid beige;
-  margin:auto;
+  margin:0px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -110,25 +110,32 @@
   float: right;
   padding: 15px;
   border: 1px solid beige;
-  margin:auto;
+  margin:0px;
   position:relative;
 }
 .contacto {
   width: 100%;
   float: right;
-  padding: 15px;
   border: 1px solid beige;
-  margin:auto;
-  position: relative;
-  justify-self: center;
-
+ display: flex;
+ justify-content: center;
+  
+  
 }
+.contacto li {
+
+    padding: 10px 50px 10px ;
+  
+    
+  }
+
+
 .perfil {
   width: 100%;
   float: right;
   padding: 15px;
   border: 1px solid beige;
-  margin:auto;
+  margin:0px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -138,7 +145,7 @@
   float: right;
   padding: 15px;
   border: 1px solid beige;
-  margin:auto;
+  margin:0px;
   position: relative;
 
   justify-content: right;

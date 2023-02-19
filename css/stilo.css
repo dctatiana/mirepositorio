@@ -6,9 +6,8 @@ section {
   font-family: 'Itim', cursive;
     width: 780px;
     padding: 50px;
-    margin: 0 auto;
-
-    
+    margin: 0px;
+    margin-inline-end: 0%;
   }
 
 h1 { 
@@ -31,9 +30,8 @@ body {
  }
  button {
   color: black;
-  font-size: 10px;
-  background-color: rgb(126, 130, 131);
-
+  font-size: none;
+  background-color: lightslategray;
  }
  
 
